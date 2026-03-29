@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dementia Support Platform</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f5f7fa;
+text-align:center;
+padding-top:100px;
+}
+
+h1{
+font-size:40px;
+}
+
+.container{
+margin-top:50px;
+}
+
+.card{
+display:inline-block;
+background:white;
+padding:40px;
+margin:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+width:300px;
+}
+
+button{
+font-size:20px;
+padding:15px 25px;
+margin-top:20px;
+cursor:pointer;
+border:none;
+background:#4CAF50;
+color:white;
+border-radius:6px;
+}
+
+button:hover{
+background:#3d8f41;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>NeuroCare Platform</h1>
+<p>Tools for Dementia Detection and Cognitive Therapy</p>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Dementia Diagnosis</h2>
+
+<p>Take a cognitive assessment to detect possible dementia risk.</p>
+
+<button onclick="goDiagnosis()">Start Diagnosis</button>
+
+</div>
+
+<div class="card">
+
+<h2>Cognitive Therapy</h2>
+
+<p>Daily exercises designed to improve memory and cognition.</p>
+
+<button onclick="goTherapy()">Start Therapy</button>
+
+</div>
+
+</div>
+
+<script>
+
+function goDiagnosis(){
+
+window.location.href = "https://dementia-detector.vercel.app/";
+
+}
+
+function goTherapy(){
+
+window.location.href = "https://y//dementia-detector.vercel.app";
+
+}
+
+</script>
+
+</body>
+</html>
